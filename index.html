@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navegacao">
+
+            <img src="./assets/Logo do site.png" alt="logoImagem" class="logo">
+            <a href="https://leoofaust.github.io/portfolio/" onclick="sobreMim()">Sobre mim</a>
+            <a href="https://linktr.ee/leonardofaustinoaa" onclick="contatos()">Contatos</a>
+            
+    
+        </nav>
+    </header>
+    
+    <main>
+     
+
+
+        <section class="campoEncriptografar">
+            <textarea class="inputParaCriptografar" id="" cols="41" rows="4" placeholder="Digite o seu texto"></textarea>
+
+            <div class="informativos">
+                <h6>Apenas letras mínusculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button onclick="botaoEncriptar()" class="botaoCriptografar">
+                    Criptografar
+                </button>
+    
+                <button onclick="botaoDesencriptar()" class="botaoDesincriptografar">
+                    Desencriptar
+                </button>
+            </div>
+
+
+
+
+        </section>
+
+
+        <section class="campoDesincriptografar">
+            <textarea class="outputParaDesincriptografar" id="" cols="20" rows="10"></textarea>
+
+            <button onclick="copiar()" class="botaoCopiar">
+                Copiar
+            </button>
+        </section>
+
+
+
+    
+
+
+
+    </main>
+
+    <footer></footer>
+
+
+<script src="./js.js"></script>
+</body>
+
+</html>

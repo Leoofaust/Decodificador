@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 390;
+
+    background-color: #E5E5E5;
+   ;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center; 
+    background-color: #0F72ED;
+    padding: 1px; 
+    font-size: 20px;
+}
+
+.navegacao a {
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    color: white; 
+    text-decoration: none; 
+    margin-right: 20px; 
+    background-color: transparent;
+}
+
+.logo {
+    width: 7rem;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+
+
+.titulo {
+    align-items: center;
+    text-align: center;
+    font-size: xx-large;
+    color: #026bff;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    font-size: 32px;
+    
+}
+
+.inputParaCriptografar {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 32px;
+}
+
+::placeholder {color: #0A3871;}
+    .inputParaCriptografar:focus {
+        outline: none;
+    }
+
+.outputParaDesincriptografar {
+    background-color: #ffffff;
+    background-image: url(./assets/personagem.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    border-color: #0A3871;
+    margin-left: 98px;
+    margin-top: 28px;
+    padding-left: 20px;
+    position: fixed;
+    font-size: 32px;
+    width: 340px;
+    height: 500px;
+}
+
+.outputParaDesincriptografar:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 5px;
+    font-size: 32px;
+}
+
+.botaoDesincriptografar {
+    background-color: #6026ff;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width:400px;
+    font-size: 32px;
+}
+
+.botaoCriptografar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 32px;
+}
+
+.botaoCopiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 27rem;
+    position: absolute;
+    width: 336px;
+    font-size: 32px;
+}
+
+.informativos {
+    margin-top: 20rem;
+    color: #495057;
+    font-size: xx-small;
+    font-size: 32px;
+}
+
+
